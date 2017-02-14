@@ -1,0 +1,401 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "宋体";
+	font-size: 12px;
+	list-style: none;
+}
+body{
+	background:url(../img/header_bg.png) #fff top repeat-x;
+}
+a{
+	text-decoration: none;
+}
+/******************头部开始******************/
+	.header{
+		width: 960px;
+		height: 76px;
+		border:0 solid blue;
+		margin:0 auto;
+		position: relative;
+	}
+	.logo{
+		width: 262px;
+		height: 41px;
+		position: absolute;
+		top:11px;
+		left:0;
+		overflow: hidden;
+	}
+	.logoa{
+		width: 262px;
+		height: 41px;
+		display: block;
+	}
+	.language{
+		width: 92px;
+		height: 12px;
+		position: absolute;
+		top:11px;
+		right:10px;
+		line-height: 12px;
+	}
+	.language a{
+		padding: 0 2px;
+		float: left;
+		color:#696969;
+	}
+	.language span{
+		float: left;
+	}
+	.menu{
+		width: 640px;
+		height: 24px;
+		position: absolute;
+		top: 28px;
+		right:0;
+	}
+	.sy{
+		width: 80px;
+		height: 28px;
+		float: left;
+		line-height: 28px;
+		text-align: center;
+		position: relative;
+		background:url(../img/nav_li.png) no-repeat scroll right center transparent;
+	}
+	.sya{
+		background: url(../img/nav_h.png) no-repeat center 2px;
+		float: left;
+		width: 80px;
+		height: 30px;
+		color:#fff;
+		font-weight: bold;
+	}
+	.sya.x{
+		color:#54544c;
+		background:none;
+	}
+	.sya.x:hover{
+		color:#fff;
+		background:url(../img/nav_h.png) no-repeat center 2px;
+	}
+	.syboxmenu{
+		width: 80px;
+		height: 126px;
+		background-color: #E8F1F8;
+		position: absolute;
+		top:38px;
+		left: 0; 
+		z-index: 1000;
+		/*display: none;*/
+	}
+	.syboxmenu a{
+		width: 80px;
+		height: 25px;
+		display: block;
+		color:#000;
+	}
+	.syboxmenu a:hover{
+		background-color:#D4F2FB; 
+		color:#4BC6E8;
+	} 
+	.sybox{
+		width: 80px;
+		height: 40px;
+		position: relative;
+	}
+/******************banner开始******************/
+	.banner{
+		width: 960px;
+		height:300px;
+		margin:0 auto;
+		position: relative;
+	}
+	 .banner img{
+		position: absolute;
+		left: 0;
+		top: 0;
+	} 
+/******************scroll开始******************/
+	.scroll{
+		width: 960px;
+		height: 58px;
+		margin:1px auto 8px;
+		border:1px solid #E2E2E2;
+		border-radius: 5px;
+		position: relative;
+		padding-top:14px; 
+		overflow: hidden;
+	}
+	.scrollarrL{
+		width: 17px;
+		height: 72px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		cursor: pointer;
+	}
+	.scrollarrR{
+		width: 17px;
+		height: 72px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		cursor: pointer;
+	}
+	.scrollcon{
+		width: 900px;
+		height: 58px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	.scrollbox{
+		position: relative;
+		left:-145px;
+		top:0;
+		width: 2000px;
+	}
+	.scrollfore{
+		/* width: 128px;
+		height: 51px; */
+		float: left;
+		text-align: center;/* 
+		border:1px solid #E2E2E2; */
+		overflow: hidden;
+		margin:0 10px;
+		overflow: hidden;
+	}
+	.scrollfore a{
+		width: 128px;
+		height: 51px;
+		border:1px solid #E2E2E2;
+		float: left;
+		display: block;
+		overflow: hidden;
+	}
+/******************content开始******************/
+	.content{
+		width: 980px;
+		height: 436px;
+		margin:0 auto;
+		background:url(../img/ind_main_bg.gif);
+	}
+	.leftcon{
+		width: 320px;
+		height: 255px;
+		float: left;
+	}
+	.leftcon h2{
+		width: 320px;
+		height: 30px;
+		line-height: 18px;
+		padding-left:40px;
+		padding-top: 7px;
+		color:#042953;
+		font-weight: bold;
+		letter-spacing:1px;
+	}
+	.lefttext{
+		width: 295px;
+		height: 219px;
+		float: left;
+	}
+	.lefttext p{
+		width: 285px;
+		padding-left: 25px;
+		margin-top: 9px;
+		text-indent: 2em;
+		color: #54544C;
+		line-height: 1.4;
+	}
+	.leftcon_b{
+		width: 320px;
+		height: 145px;
+		float: left;
+	}
+	.leftcon_b h2{
+		width:408px;
+		height: 22px;
+		color:#042953;
+		font-weight: bold;
+		letter-spacing:1px;
+		margin: 20px 40px 0;
+	}
+	.leftcon_b h2 span{
+		color:#888;
+		font-family: Arial;
+		font-size: 10px;
+		font-weight: lighter;
+		letter-spacing: 0;
+	}
+	.leftcon_b h2 i{
+		color:#e70014;
+		font-style: normal;
+		font-size: 10px;
+	}
+	.leftcon_b ul li{
+		list-style-type:square;
+		color: #54544C;
+	}
+	.leftcon_b ul{
+		padding: 15px 40px;
+	}
+	.leftcon_b a{
+		width: 133px;
+		height: 21px;
+		color: #54544C;
+		display: block;
+	}
+	.leftcon_b a:hover{
+		color:#E70014;
+		text-decoration: underline;
+	}
+	.botcon{
+		width: 960px;
+		height: 33px;
+		margin:5px auto 0;
+	}
+	.botcon1{
+		width: 381px;
+		height: 33px;
+		border-radius: 5px;
+		float: left;
+		border:1px solid #E2E2E2;
+		position: relative;
+	}
+	.botcon1 ul{
+		width: 381px;
+		height: 182px;
+		background-color: #FBFAFA;
+		opacity: 0.95;
+		position: absolute;
+		top:-184px;
+		left:0;
+		overflow: scroll;
+		border-radius: 5px;
+		border:1px solid #E4E4E4;
+	}
+	.botcona{
+		width: 365px;
+		display: block;
+		height: 30px;
+		color:#62625A;
+		line-height: 30px;
+		padding-left: 20px;
+		font-size: 12px;
+		border-bottom: 1px dashed #54544c;
+	}
+	.botcona:hover{
+		color: #E91527;
+		background-color: #95C7FE;
+	}
+	.botcon1a{
+		width: 252px;
+		height: 33px;
+		float: left;
+		color:#717171;
+		line-height: 33px;
+		background-color: #FBFAFA;
+		padding-left: 48px;
+	}
+	.botcon1aa{
+		float: right;
+		width: 30px;
+		height: 33px;
+		border-left: 1px solid #E2E2E2;
+		color: #042952;
+		line-height: 33px;
+		text-align: center;
+	}
+	.botcon2{
+		width: 271px;
+		height: 33px;
+		border-radius: 5px;
+		float: left;
+		border:1px solid #E2E2E2;
+		margin: 0 10px;
+		background-color: #FBFAFA;
+		position: relative;
+	}
+	.botcon2 ul{
+		width: 271px;
+		height: 182px;
+		background-color: #FBFAFA;
+		opacity: 0.95;
+		position: absolute;
+		top:-184px;
+		left:0;
+		overflow: scroll;
+		border-radius: 5px;
+		border:1px solid #E4E4E4;
+	}
+	.botcon2a{
+		width: 196px;
+		height: 33px;
+		float: left;
+		color:#717171;
+		line-height: 33px;
+		padding-left: 40px;
+	}
+	.botcon3{
+		width: 282px;
+		height: 33px;
+		border-radius: 5px;
+		float: left;
+		background-color: #FBFAFA;
+		border:1px solid #E2E2E2;
+		position: relative;
+	}
+	.botcon3 ul{
+		width: 282px;
+		height: 182px;
+		background-color: #FBFAFA;
+		opacity: 0.95;
+		position: absolute;
+		top:-184px;
+		left:0;
+		overflow: scroll;
+		border-radius: 5px;
+		border:1px solid #E4E4E4;
+	}
+	.botcon3a{
+		width: 205px;
+		height: 33px;
+		float: left;
+		color:#717171;
+		line-height: 33px;
+		padding-left: 45px;
+	}
+/******************底部开始******************/
+	.footer{
+		width: 960px;
+		height: 100px;
+		margin:15px auto 0;
+		border-top:1px solid #E2E2E2;
+		border-radius: 5px;
+		background:url(../img/footer_bg.png) repeat-x;
+		overflow: hidden;
+		clear: both;
+	}
+	.footcon{
+		width: 362px;
+		height: 60px;
+		float: left;
+		margin:15px 0 0 16px;
+		color: #54544C;
+		line-height: 20px;
+	}
+	.footcon a{
+		color:#808080;
+		padding: 0 2px;
+	}
+	.footcon a:hover{
+		color:#E70014;
+		text-decoration: underline;
+	}
+	.footimg{
+		width: 195px;
+		float: right;
+		margin-top: 20px;
+	}

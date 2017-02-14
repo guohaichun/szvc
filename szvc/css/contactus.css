@@ -1,0 +1,15 @@
+.contactcon{
+	width: 130px;
+	height: 15px;
+	padding-top: 50px;
+}
+.contact{
+	width: 603px;
+	height: 357px;
+	margin:20px 80px; 
+}
+.contact a{
+	color: #800080;
+	text-decoration: underline;
+	margin-left: 5px;
+}

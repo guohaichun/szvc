@@ -1,0 +1,13 @@
+.casecon{
+	width: 594px;
+	margin:20px auto;
+}
+.casecon p{
+	font-size: 16px;
+	color: #54544c;
+	text-indent: 2em;
+	margin-bottom: 20px;
+}
+.casecon img{
+	margin-left: 40px;
+}

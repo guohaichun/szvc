@@ -1,0 +1,16 @@
+.ideacon{
+	width: 619px;
+	height: 272px;
+	margin:20px auto;
+}
+.ideacon ul{
+	width: 617px;
+	height: 224px;
+	float: left;
+	padding-left: 20px;
+	color: #54544c;
+}
+.ideacon ul p{
+	margin-bottom: 17px;
+	font-size: 12px;
+}

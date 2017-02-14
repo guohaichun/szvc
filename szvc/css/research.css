@@ -1,0 +1,22 @@
+.rescon{
+	width: 650px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.rescon1{
+	font-size: medium;
+	font-weight: bold;
+	color: #54544c;
+	padding-left: 30px;
+	margin-bottom: 5px;
+}
+.rescon1.t{
+	margin-left: 110px;
+}
+.restext{
+	font-size: small;
+	color: #54544c;
+	text-indent: 2em;
+	line-height: 150%;
+}

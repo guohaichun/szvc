@@ -1,0 +1,12 @@
+jQuery.extend({
+	menu:function(child,father){
+		$(child).hide();
+		$(father).each(function(){
+			$(this).hover(function(){
+				$(child).show();
+			},function(){
+				$(child).hide();
+			})
+		})
+	}
+})

@@ -1,0 +1,32 @@
+.teamcon{
+	width: 720px;
+	height: 1200px;
+	margin-top: 56px;
+}
+.teamcon1{
+	width: 590px;
+	height: 159px;
+	margin:0 auto;
+}
+.teamcon1 .teamtext{
+	width: 445px;
+	height: 127px;
+	padding:0;
+}
+.teamtext b{
+	color:#54544c;
+	font-size: 19px;
+	font-family: "宋体";
+}
+.teamtext p{
+	color:#54544c;
+	font-family: "宋体";
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.teamhr{
+	width: 590px;
+	height: 8px;
+	float: left;
+}
